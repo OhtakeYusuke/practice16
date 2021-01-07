@@ -1,4 +1,27 @@
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import '@fortawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/brands';
+@import '@fortawesome/fontawesome-free/scss/v4-shims';
+@import "slick-theme";
+@import "slick";
+
+
+body{
+  margin: 0;
+}
+
 .image{
   width: 200px;
-  height: 200px;
+  max-height: 200px;
 }
+.slick-next {
+    right: 10px !important;
+    z-index: 100;
+ }
+
+.slick-prev {
+    left: 10px !important;
+  z-index: 100;
+ }
